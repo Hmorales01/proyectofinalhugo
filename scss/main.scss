@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  border: 0;
+}
+
+#navbar {
+  z-index: 1;
+}
+
+#ribbon {
+  background-color: rgb(42, 124, 46);
+}
+#ribbon::after {
+  content: "";
+  background-color: transparent;
+  display: block;
+  height: 20px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: auto;
+  margin-top: -40px;
+}
+#separador-ribbon {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+#separador-ribbon .content {
+  width: 150%;
+  height: 150px;
+  margin-left: -25%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+#Contacto {
+  background-color: #000000;
+  position: relative;
+  z-index: 10;
+  margin-top: -20px;
+  box-shadow: 0 0 10px #000000;
+}
+
+#Contacto img {
+  position: relative;
+}
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+.card-border:hover {
+  transform: scale(1.05);
+}
+.text-shadow {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
